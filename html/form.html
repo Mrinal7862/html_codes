@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: grey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Input form</center></h1>
+    <form>
+        <!-- First name -->
+        <label for="fname">First name: </label>
+        <input type="text" placeholder="Enter your first name" id="fname">
+
+        <br> <br>
+        <!-- Last name -->
+         <label for="sname">Last name: </label>
+         <input type="text" placeholder="Enter your last name" id="sname"> 
+
+         <br> <br>
+         <!-- Email -->
+          <label for="email">E-mail: </label>
+          <input type="email" placeholder="example.234@gmail.com" id="email">
+
+          <br><br>
+
+          <!-- Gender -->
+
+          <label for="gender">Gender: </label>
+
+
+
+          <label for="gender">Male </label>
+          <input type="radio" name="gender">
+
+          <label for="gender">Female </label>
+          <input type="radio" name="gender">
+
+          <label for="gender">Others </label>
+          <input type="radio" name="gender">
+
+          <br> <br>
+          <!-- Phone number -->
+          <label for="number">Phone Number: </label>
+
+          <select>
+            <option value="india">
+                +91
+            </option>
+
+            <option value="us">
+                +234
+            </option>
+
+            <option value="Pakistan">
+                +92
+            </option>
+          </select>
+          <input type="number" name="number" placeholder="930xx"> 
+          <br> <br>
+
+          <!-- Password -->
+          <label for="pasword">Password: </label>
+          <input type="password" name="password"> 
+
+          <label for="pasword">Confirm Password: </label>
+          <input type="password" name="password"> 
+
+          <br> <br>
+          <!-- Submit -->
+           <button type="submit">
+                <h3>Submit</h3>
+           </button>
+          
+           <button type="reset">
+                <h3> Reset</h3>
+           </button>
+    </form>
+</body>
+</html>
